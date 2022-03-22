@@ -34,10 +34,20 @@ function boolToWord( bool ){
     }
   }
 
-//8 kyu: 3/20/22- Reversed Strings:Complete the solution so that it reverses the string passed into it.
+//8 kyu: 3/20/22- Reversed Strings: Complete the solution so that it reverses the string passed into it.
 function solution(str){
     if (str === "")
         return "";
     else
       return solution(str.substr(1)) + str.charAt(0);
   }
+
+//8 kyu: 3/21/22- Return Negative: In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+function makeNegative(num) {
+  // Code?
+ if (num <= 0) {
+   return num;
+ }else{
+   return -Math.abs(num)
+ }
+}
