@@ -67,4 +67,7 @@ function repeatStr (n, s) {
   return (str.slice(1,-1));
  }
 
- 
+ //8 kyu js: 3/23/22- Remove String Spaces: Simple, remove the spaces from the string, then return the resultant string.
+ function noSpace(x){
+  return x.split(/\s/).join('');
+}
