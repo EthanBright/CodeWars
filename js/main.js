@@ -102,7 +102,7 @@ function greet(){
   return 'hello world!';
 }
 
-//8 kyu js: 3/28/22- Beginner - Lost Without a Map: Given an array of integers, return a new array with each value doubled.
+//8 kyu js: 3/29/22- Beginner - Lost Without a Map: Given an array of integers, return a new array with each value doubled.
 function maps(x){
   let double = []
   for(let i = 0; i < x.length; i++){
