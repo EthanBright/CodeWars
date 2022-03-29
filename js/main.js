@@ -96,3 +96,8 @@ function summation(num) {
   }
   return sum;
 }
+
+//8 kyu js: 3/27/22- Function 1 - hello world: Write a function "greet" that returns "hello world!"
+function greet(){
+  return 'hello world!';
+}
