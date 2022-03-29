@@ -97,7 +97,16 @@ function summation(num) {
   return sum;
 }
 
-//8 kyu js: 3/27/22- Function 1 - hello world: Write a function "greet" that returns "hello world!"
+//8 kyu js: 3/28/22- Function 1 - hello world: Write a function "greet" that returns "hello world!"
 function greet(){
   return 'hello world!';
+}
+
+//8 kyu js: 3/28/22- Beginner - Lost Without a Map: Given an array of integers, return a new array with each value doubled.
+function maps(x){
+  let double = []
+  for(let i = 0; i < x.length; i++){
+    double.push(x[i] * 2);
+  }
+  return double
 }
