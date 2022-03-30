@@ -110,3 +110,9 @@ function maps(x){
   }
   return double
 }
+
+//8 kyu js: 3/30/22- Convert a String to a Number!: We need a function that can transform a string into a number. What ways of achieving this do you know?
+var stringToNumber = function(str){
+  // put your code here
+  return (Math.floor(str));
+}
