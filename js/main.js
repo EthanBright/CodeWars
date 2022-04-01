@@ -116,3 +116,9 @@ var stringToNumber = function(str){
   // put your code here
   return (Math.floor(str));
 }
+
+//8 kyu js: 3/31/22- MakeUpperCase: Write a function which converts the input string to uppercase.
+function makeUpperCase(str) {
+  // Code here
+  return str.toUpperCase();
+}
