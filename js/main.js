@@ -122,3 +122,9 @@ function makeUpperCase(str) {
   // Code here
   return str.toUpperCase();
 }
+
+//8 kyu js: 4/2/22- You Can't Code Under Pressure #1: Code as fast as you can! You need to double the integer and return it.
+function doubleInteger(i) {
+  // i will be an integer. Double it and return it.
+  return (i * 2);
+}
