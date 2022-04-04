@@ -161,3 +161,8 @@ function getPlanetName(id){
   
   return name;
 }
+
+//8 kyu js: 4/4/22- Sentence Smash
+function smash (words) {
+  return words.join(" ")
+};
