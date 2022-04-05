@@ -166,3 +166,11 @@ function getPlanetName(id){
 function smash (words) {
   return words.join(" ")
 };
+
+//8 kyu js: 4/5/22- Grasshopper - Terminal game move function
+function move (position, roll) {
+  // return the new position
+  let newPosition = (position + (roll * 2));
+  return newPosition;
+}
+
