@@ -174,3 +174,18 @@ function move (position, roll) {
   return newPosition;
 }
 
+//8 kyu js: 4/6/22- Quarter of the year
+const quarterOf = (month) => {
+  // Your code here
+  if (month === 1 || month === 2 || month === 3){
+    return 1;
+  }else if(month === 4 || month === 5 || month === 6){
+    return 2;
+  }else if(month === 7 || month === 8 || month === 9){
+    return 3;
+  }else if(month === 10 || month === 11 || month === 12){
+    return 4;
+  }else{
+    return 'Not a month you goob'
+  }
+}
