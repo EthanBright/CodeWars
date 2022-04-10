@@ -202,3 +202,12 @@ function finalGrade (exam, projects) {
     return 0;
   }
 }
+
+//8 kyu js: 4/10/22- Grasshopper - Personalized Message
+function greet (name, owner) {
+  if(name === owner){
+    return 'Hello boss'
+  }else{
+    return 'Hello guest'
+  }
+}
