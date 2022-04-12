@@ -211,3 +211,15 @@ function greet (name, owner) {
     return 'Hello guest'
   }
 }
+
+//8 kyu js: 4/12/22- Opposites Attract
+function lovefunc(flower1, flower2){
+  // moment of truth
+  let resultf1 = flower1 % 2;
+  let resultf2 = flower2 % 2;
+  if (resultf1 === resultf2){
+    return false;
+  }else{
+    return true;
+  }
+}
