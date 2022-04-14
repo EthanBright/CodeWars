@@ -223,3 +223,12 @@ function lovefunc(flower1, flower2){
     return true;
   }
 }
+
+//8 kyu js: 4/14/22- Area or Perimeter
+const areaOrPerimeter = function(l , w) {
+  if (l === w){
+    return (l * w);
+  }else {
+    return ((l + l) + (w + w));
+  }
+};
