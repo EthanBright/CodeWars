@@ -231,4 +231,13 @@ const areaOrPerimeter = function(l , w) {
   }else {
     return ((l + l) + (w + w));
   }
-};
+}
+
+//8 kyu js: 4/16/22- What is between?
+function between(a, b) {
+  let list = [];
+  for(let i = a; i <= b;i++){
+   list.push(i);
+  }
+  return list;
+}
