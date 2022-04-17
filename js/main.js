@@ -241,3 +241,8 @@ function between(a, b) {
   }
   return list;
 }
+
+//8 kyu js: 4/17/22- Is the string uppercase?
+String.prototype.isUpperCase = function() {
+  return this.valueOf().toUpperCase() === this.valueOf();
+};
