@@ -246,3 +246,9 @@ function between(a, b) {
 String.prototype.isUpperCase = function() {
   return this.valueOf().toUpperCase() === this.valueOf();
 };
+
+//8 kyu js: 4/18/22- Grasshopper - Variable Assignment Debug
+let a = "dev"
+let b = "Lab"
+
+let name = a.concat(b);
