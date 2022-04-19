@@ -252,3 +252,12 @@ let a = "dev"
 let b = "Lab"
 
 let name = a.concat(b);
+
+//8 kyu js: 4/19/22- The Wide-Mouthed frog!
+function mouthSize(animal) {
+  if (animal.toLowerCase() === 'alligator'){
+    return "small"
+  }else{
+    return "wide"
+  }
+}
