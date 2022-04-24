@@ -306,3 +306,15 @@ function hoopCount (n) {
     return 'Keep at it until you get it'
   }
 }
+
+//8 kyu js: 4/24/22- Transportation on vacation
+function rentalCarCost(d) {
+  let total = 40 * d;
+  if (d >= 7){
+    return total - 50;
+  }else if(d >= 3 && d < 7){
+    return total - 20;
+  }else{
+    return total;
+  }
+}
