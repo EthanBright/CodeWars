@@ -318,3 +318,8 @@ function rentalCarCost(d) {
     return total;
   }
 }
+
+//8 kyu js: 4/25/22- Reverse List Order
+function reverseList(list) {
+  return list.reverse();
+}
