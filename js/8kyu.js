@@ -323,3 +323,31 @@ function rentalCarCost(d) {
 function reverseList(list) {
   return list.reverse();
 }
+
+//8 kyu js: 4/26/22- L1: Bartender, drinks!
+function getDrinkByProfession(param){
+  let input = param.toLowerCase();
+  switch (input){
+      case 'jabroni':
+        return 'Patron Tequila';
+        break;
+      case 'school counselor':
+        return 'Anything with Alcohol';
+        break;
+      case 'programmer':
+        return 'Hipster Craft Beer';
+        break;
+      case 'bike gang member':
+        return 'Moonshine';
+        break;      
+      case 'politician':
+        return 'Your tax dollars';
+        break;
+      case 'rapper':
+        return 'Cristal';
+        break;
+      default:
+        return 'Beer'
+        break;
+  }
+}
