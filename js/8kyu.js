@@ -366,3 +366,13 @@ const rps = (p1, p2) => {
     return 'Player 2 won!'
   }
 };
+
+//8 kyu js: 4/29/22- Sum Arrays
+// Sum Numbers
+function sum (numbers) {
+  let sumOfNumbers = 0
+  for(let i = 0; i < numbers.length; i++){
+    sumOfNumbers += numbers[i];
+  }
+  return sumOfNumbers
+};
