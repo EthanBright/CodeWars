@@ -376,3 +376,18 @@ function sum (numbers) {
   }
   return sumOfNumbers
 };
+
+//8 kyu js: 5/1/22- Grader
+function grader(score) {
+  if(score < 0.6 || score > 1.0){
+    return 'F';
+  }else if(score >= 0.9){
+    return 'A';
+  }else if(score >= 0.8){
+    return 'B';
+  }else if(score >= 0.7){
+    return 'C';
+  }else{
+    return 'D';
+  };
+}
