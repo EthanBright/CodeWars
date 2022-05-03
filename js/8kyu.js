@@ -391,3 +391,13 @@ function grader(score) {
     return 'D';
   };
 }
+
+//8 kyu js: 5/1/22- Vowel remover
+function shortcut (string) {
+  let newString = string.split('')
+  return newString.map(character => {
+    if (/[aeiou]/.test(character)){
+      character = ''
+    }else {return character}
+  }).join('')
+}
