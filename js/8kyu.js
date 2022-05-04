@@ -392,7 +392,7 @@ function grader(score) {
   };
 }
 
-//8 kyu js: 5/1/22- Vowel remover
+//8 kyu js: 5/2/22- Vowel remover
 function shortcut (string) {
   let newString = string.split('')
   return newString.map(character => {
@@ -400,4 +400,15 @@ function shortcut (string) {
       character = ''
     }else {return character}
   }).join('')
+}
+
+//8 kyu js: 5/3/22- Can we divide it?
+function isDivideBy(number, a, b) {
+  let divideA = number % a;
+  let divideB = number % b;
+  if (divideA === 0 && divideB === 0){
+    return true;
+  }else{
+    return false;
+  }
 }
