@@ -412,3 +412,8 @@ function isDivideBy(number, a, b) {
     return false;
   }
 }
+
+//8 kyu js: 5/4/22- Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence
+function replace(s){
+  return s.replace(/[aeiouAEIOU]/g, '!');
+}
