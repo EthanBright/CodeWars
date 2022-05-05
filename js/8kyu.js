@@ -417,3 +417,12 @@ function isDivideBy(number, a, b) {
 function replace(s){
   return s.replace(/[aeiouAEIOU]/g, '!');
 }
+
+//8 kyu js: 5/5/22- Convert a Boolean to a String
+function booleanToString(b){
+  if (b === true){
+    return 'true'
+  }else{
+    return 'false'
+  }
+} 
