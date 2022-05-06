@@ -426,3 +426,12 @@ function booleanToString(b){
     return 'false'
   }
 } 
+
+//8 kyu js: 5/6/22- Plural
+function plural(n) {
+  if (n === 1){
+    return false;
+  }else{
+    return true;
+  }
+}
