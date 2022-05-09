@@ -448,3 +448,18 @@ function peopleWithAgeDrink(old) {
     return 'drink whisky';
   }
 };
+
+//8 kyu js: 5/9/22- Palindrome Strings
+function isPalindrome(line) {
+  let newString = "";
+  for (let i = line.length - 1; i >= 0; i--) {
+      newString += line[i];
+  }
+if(newString === line){
+  return true;
+}else if(newString !== line){
+  return false;
+}else{
+  return undefined;
+}
+}
