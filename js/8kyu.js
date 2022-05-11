@@ -469,3 +469,14 @@ function unusualFive(x) {
   x = 'fives';
   return x.length;
  }
+
+ //8 kyu js: 5/11/22- Find the smallest integer in the array
+ class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    let sorted = args.slice().sort(function(a,b){
+      return a-b;
+    })
+    let smallest = sorted[0];
+    return smallest;
+  }
+}
