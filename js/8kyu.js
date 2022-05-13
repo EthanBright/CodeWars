@@ -519,3 +519,8 @@ function greet(language) {
     return 'Welcome'
   }
 }
+
+//8 kyu js: 5/13/22- Third Angle of a Triangle
+function otherAngle(a, b) {
+  return 180 - a - b;
+}
