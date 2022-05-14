@@ -524,3 +524,12 @@ function greet(language) {
 function otherAngle(a, b) {
   return 180 - a - b;
 }
+
+//8 kyu js: 5/14/22- Filling an array (part 1)
+const arr = N => {
+  let answer = [];
+  for (let i = 0; i < N; i++){
+    answer.push(i);
+  }
+  return answer;
+}
