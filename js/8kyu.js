@@ -533,3 +533,12 @@ const arr = N => {
   }
   return answer;
 }
+
+//8 kyu js: 5/15/22- Reversed sequence
+const reverseSeq = n => {
+  let answer = [];
+  for (let i = n; i > 0; i--){
+    answer.push(i);
+  }
+  return answer;
+};
