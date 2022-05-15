@@ -1,2 +1,2 @@
 # CodeWars
- Storing all my code wars answers here
+ Daily Coding Exercises to sharpen problem solving skills
