@@ -542,3 +542,12 @@ const reverseSeq = n => {
   }
   return answer;
 };
+
+//8 kyu js: 5/16/22- Jenny's secret message
+function greet(name){
+  if(name === "Johnny"){
+    return "Hello, my love!";
+  }else{
+    return "Hello, " + name + "!";
+  }    
+}
