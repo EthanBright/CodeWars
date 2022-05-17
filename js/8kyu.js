@@ -551,3 +551,13 @@ function greet(name){
     return "Hello, " + name + "!";
   }    
 }
+
+//8 kyu js: 5/17/22- Will you make it?
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  const answer = distanceToPump / mpg ;
+  if (answer > fuelLeft){
+    return false;
+  }else{
+    return true;
+  }
+};
