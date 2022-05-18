@@ -561,3 +561,12 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     return true;
   }
 };
+
+//8 kyu js: 5/18/22- Simple multiplication
+function simpleMultiplication(number) {
+  if (number % 2 === 0){
+    return number * 8;
+  }else{
+    return number * 9;
+  }
+}
