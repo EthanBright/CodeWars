@@ -570,3 +570,16 @@ function simpleMultiplication(number) {
     return number * 9;
   }
 }
+
+//8 kyu js: 5/19/22- L1: Set Alarm
+function setAlarm(employed, vacation){
+  if(employed === true && vacation === true){
+    return false;
+  }else if (employed === false && vacation === true){
+    return false;
+  }else if (employed === false && vacation === false){
+    return false;
+  }else{
+    return true;
+  }
+}
