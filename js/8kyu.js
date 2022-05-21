@@ -598,4 +598,13 @@ function getGrade (s1, s2, s3) {
   }else{
     return 'F'
   }
+}  
+
+//8 kyu js: 5/21/22- Unfinished Loop - Bug Fixing #1
+function createArray(number){
+  var newArray = [];
+  for(var counter = 1; counter <= number; counter++){
+    newArray.push(counter);
+  }
+  return newArray;
 }
