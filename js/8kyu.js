@@ -600,11 +600,16 @@ function getGrade (s1, s2, s3) {
   }
 }  
 
-//- Unfinished Loop - Bug Fixing #1
+//8 kyu js: 5/21/22- Unfinished Loop - Bug Fixing #1
 function createArray(number){
   var newArray = [];
   for(var counter = 1; counter <= number; counter++){
     newArray.push(counter);
   }
   return newArray;
+}
+
+//8 kyu js: 5/22/22- Keep Hydrated!
+function litres(time) {
+  return (Math.floor(time * 0.5))
 }
