@@ -613,3 +613,28 @@ function createArray(number){
 function litres(time) {
   return (Math.floor(time * 0.5))
 }
+
+//8 kyu js: 5/23/22- Fundamentals: Return
+function add(a,b){
+  return a+b
+}
+
+function divide(a,b){
+  return a/b
+}
+
+function multiply(a,b){
+  return a*b
+}
+
+function mod(a,b){
+  return a%b
+}
+ 
+function exponent(a,b){
+  return a**b
+}
+  
+function subt(a,b){
+  return a-b
+}
