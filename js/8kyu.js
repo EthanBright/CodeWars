@@ -638,3 +638,9 @@ function exponent(a,b){
 function subt(a,b){
   return a-b
 }
+
+//8 kyu js: 5/24/22- Invert values
+function invert(array) {
+  let arr = array.map(x => x * -1);
+  return arr;
+}
