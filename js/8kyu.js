@@ -644,3 +644,11 @@ function invert(array) {
   let arr = array.map(x => x * -1);
   return arr;
 }
+
+//8 kyu js: 5/26/22- Square(n) Sum
+function squareSum(numbers){
+  let square = numbers.reduce((acc, curVal) => {
+    return acc + curVal ** 2;
+}, 0);
+  return square;
+}
