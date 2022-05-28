@@ -652,3 +652,8 @@ function squareSum(numbers){
 }, 0);
   return square;
 }
+
+//8 kyu js: 5/27/22- Grasshopper - Debug sayHello
+function sayHello(name) {
+  return `Hello, ${name}`
+}
