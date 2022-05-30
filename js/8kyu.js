@@ -657,3 +657,13 @@ function squareSum(numbers){
 function sayHello(name) {
   return `Hello, ${name}`
 }
+
+//8 kyu js: 5/29/22- Twice as old
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  let double = sonYearsOld * 2;
+  if (double > dadYearsOld){
+    return double - dadYearsOld;
+  }else{
+    return dadYearsOld - double;
+  }
+}
