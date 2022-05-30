@@ -667,3 +667,17 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
     return dadYearsOld - double;
   }
 }
+
+//8 kyu js: 5/30/22- How good are you really?
+function betterThanAverage(classPoints, yourPoints) {
+  let sum = 0;
+  for (let i = 0; i < classPoints.length; i++) {
+    sum += classPoints[i];
+  }
+  let average = (sum + yourPoints) / (classPoints.length + 1)
+  if(yourPoints > average){
+    return true;
+  }else{
+    return false;
+  }
+}
