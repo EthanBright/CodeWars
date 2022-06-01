@@ -694,3 +694,12 @@ function basicOp(operation, value1, value2){
     return value1 / value2;
   }
 }
+
+//8 kyu js: 6/1/22- Array plus array
+function arrayPlusArray(arr1, arr2) {
+  let bothArr = arr1.concat(arr2);
+  let sum = bothArr.reduce(function(accumulator, currentValue){
+    return accumulator + currentValue;
+  })
+  return sum;
+}
