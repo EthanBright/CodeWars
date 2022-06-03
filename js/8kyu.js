@@ -714,3 +714,17 @@ function updateLight(current) {
     return 'green'
   }
 }
+
+//8 kyu js: 6/3/22- Sum of positive
+function positiveSum(arr) {
+  let negatives = [];
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++){
+    if (arr[i] < 0){
+      negatives.push(arr[i]);
+    }else{
+      sum += arr[i];
+    }
+  }
+   return sum;
+}
