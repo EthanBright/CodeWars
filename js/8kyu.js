@@ -703,3 +703,14 @@ function arrayPlusArray(arr1, arr2) {
   })
   return sum;
 }
+
+//8 kyu js: 6/2/22- Thinkful - Logic Drills: Traffic light
+function updateLight(current) {
+  if (current === 'green'){
+    return 'yellow';
+  }else if (current === 'yellow'){
+    return 'red';
+  }else{
+    return 'green'
+  }
+}
