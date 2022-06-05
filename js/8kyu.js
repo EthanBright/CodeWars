@@ -729,8 +729,13 @@ function positiveSum(arr) {
    return sum;
 }
 
-//8 kyu js: 6/3/22- A Needle in the Haystack
+//8 kyu js: 6/4/22- A Needle in the Haystack
 function findNeedle(haystack) {
   let needleIndex = haystack.indexOf('needle');
   return `found the needle at position ${needleIndex}`;
 }
+
+//8 kyu js: 6/5/22- Returning Strings
+function greet(name){
+  return `Hello, ${name} how are you doing today?`;
+ }
