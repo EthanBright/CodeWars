@@ -739,3 +739,11 @@ function findNeedle(haystack) {
 function greet(name){
   return `Hello, ${name} how are you doing today?`;
  }
+
+ //8 kyu js: 6/6/22- Sum The Strings
+ function sumStr(a,b) {
+  let numA = Number(a);
+  let numB = Number(b);
+  let sum = numA + numB;
+  return sum.toString()
+}
