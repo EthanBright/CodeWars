@@ -747,3 +747,9 @@ function greet(name){
   let sum = numA + numB;
   return sum.toString()
 }
+
+//8 kyu js: 6/7/22- Convert number to reversed array of digits
+function digitize(n) {
+  let reverse = Array.from(n.toString()).map(Number).reverse();
+  return reverse;
+}
