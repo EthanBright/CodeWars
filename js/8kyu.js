@@ -753,3 +753,9 @@ function digitize(n) {
   let reverse = Array.from(n.toString()).map(Number).reverse();
   return reverse;
 }
+
+//8 kyu js: 6/8/22- You only need one - Beginner
+function check(a, x) {
+  let found = a.includes(x);
+  return found;
+}
