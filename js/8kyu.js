@@ -759,3 +759,14 @@ function check(a, x) {
   let found = a.includes(x);
   return found;
 }
+
+//8 kyu js: 6/9/22- Is it even?
+function testEven(n) {
+  if (n % 2 == 0){
+    return true;
+  }else if(n === 0){
+    return true;
+  }else{
+    return false;
+  }
+}
