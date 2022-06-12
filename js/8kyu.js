@@ -775,3 +775,8 @@ function testEven(n) {
 function cockroachSpeed(s) {
   return Math.floor(s * 27.7778);
 } 
+
+//8 kyu js: 6/11/22- Grasshopper - Messi goals function
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
