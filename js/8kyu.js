@@ -780,3 +780,8 @@ function cockroachSpeed(s) {
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
+
+//8 kyu js: 6/12/22- Beginner - Reduce but Grow
+function grow(x){
+  return x.reduce((a,b)=> a * b, 1)
+}
