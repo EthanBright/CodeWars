@@ -785,3 +785,9 @@ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
 function grow(x){
   return x.reduce((a,b)=> a * b, 1)
 }
+
+//8 kyu js: 6/13/22- Grasshopper - Basic Function Fixer
+function addFive(num) {
+  var total = num + 5
+  return total;
+}
