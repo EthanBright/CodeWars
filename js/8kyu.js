@@ -791,3 +791,13 @@ function addFive(num) {
   var total = num + 5
   return total;
 }
+
+//8 kyu js: 6/14/22- Grasshopper - Terminal game combat function
+function combat(health, damage) {
+  let currentHealth = health - damage;
+  if (currentHealth < 0){
+    return 0;
+  }else{
+    return currentHealth;
+  }
+}
