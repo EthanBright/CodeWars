@@ -801,3 +801,10 @@ function combat(health, damage) {
     return currentHealth;
   }
 }
+
+//8 kyu js: 6/15/22- Volume of a Cuboid
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height;
+  }
+}
