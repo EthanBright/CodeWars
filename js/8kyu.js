@@ -808,3 +808,8 @@ class Kata {
     return length * width * height;
   }
 }
+
+//8 kyu js: 6/16/22- Grasshopper - Function syntax debugging
+function main (verb, noun){
+  return verb + noun;
+}
