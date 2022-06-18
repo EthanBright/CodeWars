@@ -813,3 +813,12 @@ class Kata {
 function main (verb, noun){
   return verb + noun;
 }
+
+//8 kyu js: 6/17/22- Super Duper Easy
+function problem(x){
+  if (typeof x == 'number'){
+    return x * 50 + 6;
+  }else{
+    return 'Error';
+  }
+}
