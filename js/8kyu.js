@@ -822,3 +822,9 @@ function problem(x){
     return 'Error';
   }
 }
+
+//8 kyu js: 6/18/22- Grasshopper - Combine strings
+function combineNames(first, last){
+  let fullName = first.concat(' ',last);
+  return fullName
+}
