@@ -841,3 +841,14 @@ function datingRange(age){
   return `${min}-${max}`;
   }
 }
+
+//8 kyu js: 6/20/22- What's the real floor?
+function getRealFloor(n) {
+  if(n < 13 && n > 0){
+    return n - 1;
+  }else if(n > 13){
+    return n - 2;
+  }else{
+    return n;
+  }
+}
