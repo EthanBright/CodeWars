@@ -852,3 +852,8 @@ function getRealFloor(n) {
     return n;
   }
 }
+
+//8 kyu js: 6/21/22- Counting sheep...
+function countSheeps(arrayOfSheep) {
+  return arrayOfSheep.filter(x => x === true).length;
+}
