@@ -857,3 +857,10 @@ function getRealFloor(n) {
 function countSheeps(arrayOfSheep) {
   return arrayOfSheep.filter(x => x === true).length;
 }
+
+//8 kyu js: 6/22/22- Get the mean of an array
+function getAverage(marks){
+  let sum = marks.reduce(function (a, b) {return a + b;}, 0);
+  let number = marks.length;
+  return Math.floor(sum / number);
+}
