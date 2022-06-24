@@ -864,3 +864,12 @@ function getAverage(marks){
   let number = marks.length;
   return Math.floor(sum / number);
 }
+
+//8 kyu js: 6/23/22- Is n divisible by x and y?
+function isDivisible(n, x, y) {
+  if(n % x == 0 && n % y == 0){
+    return true;
+  }else{
+    return false;
+  }
+}
