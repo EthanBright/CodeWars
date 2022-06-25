@@ -873,3 +873,13 @@ function isDivisible(n, x, y) {
     return false;
   }
 }
+
+//8 kyu js: 6/24/22- Abbreviate a Two Word Name
+function abbrevName(name){
+  return (
+  name
+    .split(" ")
+    .map((part) => part[0].toUpperCase())
+    .join(".")
+);
+}
