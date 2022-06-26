@@ -883,3 +883,13 @@ function abbrevName(name){
     .join(".")
 );
 }
+
+//8 kyu js: 6/25/22- Calculate average
+function find_average(array) {
+  if (array.length > 0){
+    const total = array.reduce((a, b) => a + b, 0);
+    return total / array.length;
+  }else{
+    return 0;
+  }
+}
