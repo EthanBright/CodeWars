@@ -893,3 +893,10 @@ function find_average(array) {
     return 0;
   }
 }
+
+//8 kyu js: 6/26/22- DNA to RNA Conversion
+function DNAtoRNA(dna) {
+  let newStr = dna.replace(/T/g, 'U')
+  return newStr;
+ }
+ 
