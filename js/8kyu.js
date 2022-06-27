@@ -899,4 +899,17 @@ function DNAtoRNA(dna) {
   let newStr = dna.replace(/T/g, 'U')
   return newStr;
  }
- 
+
+ //8 kyu js: 6/27/22- Calculate BMI
+ function bmi(weight, height) {
+  let totalBmi = weight / Math.pow(height,2);
+  if (totalBmi <= 18.5){
+    return 'Underweight'
+  }else if(totalBmi <= 25.0){
+    return 'Normal'
+  }else if (totalBmi <= 30.0){
+    return 'Overweight'
+  }else{
+    return 'Obese'
+  }
+}
