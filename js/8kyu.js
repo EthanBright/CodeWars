@@ -913,3 +913,14 @@ function DNAtoRNA(dna) {
     return 'Obese'
   }
 }
+
+//8 kyu js: 6/28/22- Find Maximum and Minimum Values of a List
+var min = function(list){
+  let newList = list.sort(function(a, b){return a-b});
+  return parseInt(newList.slice(0, 1));
+}
+
+var max = function(list){
+let newList = list.sort(function(a, b){return a-b});
+return parseInt(newList.slice(-1));
+}
