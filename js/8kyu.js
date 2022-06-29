@@ -924,3 +924,13 @@ var max = function(list){
 let newList = list.sort(function(a, b){return a-b});
 return parseInt(newList.slice(-1));
 }
+
+//8 kyu js: 6/29/22- Is he gonna survive?
+function hero(bullets, dragons){
+  let bPerD = dragons * 2;
+  if (bPerD <= bullets){
+    return true;
+  }else{
+    return false;
+  }
+ }
