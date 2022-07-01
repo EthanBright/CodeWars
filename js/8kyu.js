@@ -954,3 +954,8 @@ function hero(bullets, dragons){
   }
   return answer
 }
+
+ //8 kyu js: 7/1/22- Century From Year
+ function century(year) {
+  return Math.floor((year-1)/100) + 1;
+ }
