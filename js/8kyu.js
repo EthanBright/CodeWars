@@ -959,3 +959,8 @@ function hero(bullets, dragons){
  function century(year) {
   return Math.floor((year-1)/100) + 1;
  }
+
+  //8 kyu js: 7/2/22- String Templates - Bug Fixing #5
+  function buildString(...template){
+    return `I like ${template.join(", ")}!`;
+  }
