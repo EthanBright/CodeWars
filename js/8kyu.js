@@ -964,3 +964,8 @@ function hero(bullets, dragons){
   function buildString(...template){
     return `I like ${template.join(", ")}!`;
   }
+
+  //8 kyu js: 7/3/22- Function 2 - squaring an argument
+  function square(x){
+    return x * x;
+  }
