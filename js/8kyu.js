@@ -969,3 +969,9 @@ function hero(bullets, dragons){
   function square(x){
     return x * x;
   }
+
+  //8 kyu js: 7/4/22- USD => CNY
+  function usdcny(usd) {
+    let cny = (usd * 6.75).toFixed(2);
+    return `${cny} Chinese Yuan`;
+  }
