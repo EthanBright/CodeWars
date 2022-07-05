@@ -975,3 +975,13 @@ function hero(bullets, dragons){
     let cny = (usd * 6.75).toFixed(2);
     return `${cny} Chinese Yuan`;
   }
+
+  //8 kyu js: 7/5/22- Is this my tail?
+  function correctTail(body, tail){
+    let lastLetter = body.slice(-1);
+    if(tail === lastLetter){
+      return true;
+    }else{
+      return false;
+    }
+  } 
