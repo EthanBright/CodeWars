@@ -985,3 +985,12 @@ function hero(bullets, dragons){
       return false;
     }
   } 
+
+  //8 kyu js: 7/6/22- Merge two sorted arrays into one
+  function mergeArrays(arr1, arr2) {
+    let merge = arr1.concat(arr2);
+    let newArr = [...new Set(merge)];
+    return newArr.sort(function(a,b){
+      return a-b;
+    });;
+  }
