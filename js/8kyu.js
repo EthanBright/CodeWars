@@ -994,3 +994,8 @@ function hero(bullets, dragons){
       return a-b;
     });;
   }
+
+  //8 kyu js: 7/7/22- Correct the mistakes of the character recognition software
+  function correct(string){
+    return string.replace(/0/g, 'O').replace(/5/g, 'S').replace(/1/g, 'I');
+  }
