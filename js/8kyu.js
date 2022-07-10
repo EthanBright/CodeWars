@@ -999,3 +999,8 @@ function hero(bullets, dragons){
   function correct(string){
     return string.replace(/0/g, 'O').replace(/5/g, 'S').replace(/1/g, 'I');
   }
+
+  //8 kyu js: 7/8/22- Bin to Decimal
+  function binToDec(bin){
+    return parseInt(bin, 2);
+   }
