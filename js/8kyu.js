@@ -1000,7 +1000,13 @@ function hero(bullets, dragons){
     return string.replace(/0/g, 'O').replace(/5/g, 'S').replace(/1/g, 'I');
   }
 
-  //8 kyu js: 7/8/22- Bin to Decimal
+  //8 kyu js: 7/10/22- Bin to Decimal
   function binToDec(bin){
     return parseInt(bin, 2);
    }
+
+//8 kyu js: 7/11/22- Training JS #1: create your first JS function and print "Hello World!"
+function helloWorld(){
+  let str = 'Hello World!';
+  console.log(str);
+}
