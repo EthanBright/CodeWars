@@ -1010,3 +1010,9 @@ function helloWorld(){
   let str = 'Hello World!';
   console.log(str);
 }
+
+//8 kyu js: 7/12/22- String cleaning
+function stringClean(s){
+  let newString = s.replace(/\d+/g, '');
+  return newString;
+}
