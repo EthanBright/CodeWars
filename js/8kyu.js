@@ -1016,3 +1016,9 @@ function stringClean(s){
   let newString = s.replace(/\d+/g, '');
   return newString;
 }
+
+//8 kyu js: 7/13/22- Convert a string to an array
+function stringToArray(string){
+  let arr = string.split(' ');
+   return arr;
+ }
