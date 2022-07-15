@@ -1022,3 +1022,10 @@ function stringToArray(string){
   let arr = string.split(' ');
    return arr;
  }
+
+ //8 kyu js: 7/14/22- Removing Elements
+ function removeEveryOther(arr){
+  for (var i = 1; i <= arr.length; i += 1)
+      arr.splice(i, 1);
+   return arr;
+  }
