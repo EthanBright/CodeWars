@@ -1029,3 +1029,8 @@ function stringToArray(string){
       arr.splice(i, 1);
    return arr;
   }
+
+  //8 kyu js: 7/15/22- Welcome to the City
+  function sayHello( name, city, state ) {
+    return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
+  }
