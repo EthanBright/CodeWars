@@ -1034,3 +1034,9 @@ function stringToArray(string){
   function sayHello( name, city, state ) {
     return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
   }
+
+  //8 kyu js: 7/16/22- Is it a number?
+  function isDigit(s) {
+    if (typeof s != "string") return false 
+    return !isNaN(s) && !isNaN(parseFloat(s))
+  }
