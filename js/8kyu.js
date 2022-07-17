@@ -1040,3 +1040,8 @@ function stringToArray(string){
     if (typeof s != "string") return false 
     return !isNaN(s) && !isNaN(parseFloat(s))
   }
+
+  //8 kyu js: 7/17/22- FIXME: Replace all dots
+  var replaceDots = function(str) {
+    return str.replace(/\./g, '-');
+  }
