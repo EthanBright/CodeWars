@@ -1045,3 +1045,12 @@ function stringToArray(string){
   var replaceDots = function(str) {
     return str.replace(/\./g, '-');
   }
+
+  //8 kyu js: 7/18/22- Exclamation marks series #1: Remove an exclamation mark from the end of string
+  function remove (string) {
+    if(string.slice(-1) === '!'){
+      return string.slice(0, -1);
+    }else{
+      return string
+    }
+  }
