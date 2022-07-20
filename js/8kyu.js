@@ -1054,3 +1054,8 @@ function stringToArray(string){
       return string
     }
   }
+
+  //8 kyu js: 7/19/22- Template Strings
+  var TempleStrings = function(obj, feature) {
+    return `${obj} are ${feature}`
+  }
