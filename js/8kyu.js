@@ -1059,3 +1059,8 @@ function stringToArray(string){
   var TempleStrings = function(obj, feature) {
     return `${obj} are ${feature}`
   }
+
+  //8 kyu js: 7/20/22- isReallyNaN
+  const isReallyNaN = (val) => {
+    return Number.isNaN(val);
+   };
