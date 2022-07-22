@@ -1064,3 +1064,9 @@ function stringToArray(string){
   const isReallyNaN = (val) => {
     return Number.isNaN(val);
    };
+
+   //8 kyu js: 7/21/22- Name Shuffler
+   function nameShuffler(str){
+    let arr = str.split(' ')
+    return arr.reverse().join(' ');
+  }
