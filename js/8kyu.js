@@ -1080,3 +1080,12 @@ function stringToArray(string){
     }
     return output.join(' ')
   }
+
+  //8 kyu js: 7/23/22- Count the Monkeys!
+  function monkeyCount(n) {
+    let count = [];
+    for(let i = 1; i <= n; i++){
+         count.push(i) 
+    }
+    return count;
+  }
