@@ -1070,3 +1070,13 @@ function stringToArray(string){
     let arr = str.split(' ')
     return arr.reverse().join(' ');
   }
+
+  //8 kyu js: 7/22/22- Reversed Words
+  function reverseWords(str){
+    let arr = str.split(' ');
+    let output = [];
+    while(arr.length){
+      output.push(arr.pop())
+    }
+    return output.join(' ')
+  }
