@@ -1089,3 +1089,13 @@ function stringToArray(string){
     }
     return count;
   }
+
+  //8 kyu js: 7/24/22- Are You Playing Banjo?
+  function areYouPlayingBanjo(name) {
+    let firstLetter = name.toUpperCase().slice(0,1);
+    if(firstLetter === 'R'){
+      return `${name} plays banjo`;
+    }else{
+      return `${name} does not play banjo`;
+    }
+  }
