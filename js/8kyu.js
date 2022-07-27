@@ -1099,3 +1099,18 @@ function stringToArray(string){
       return `${name} does not play banjo`;
     }
   }
+
+  //8 kyu js: 7/26/22- If you can't sleep, just count sheep!!
+  var countSheep = function (num){
+    let i = 0;
+    let result = '';
+    if(num === 0){
+      return '';
+    }else{
+      do {
+      i = i + 1;
+      result = result + i + ' sheep...';
+      }while (i < num);
+      return result;
+    }
+  }
