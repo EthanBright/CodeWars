@@ -1114,3 +1114,14 @@ function stringToArray(string){
       return result;
     }
   }
+
+  //8 kyu js: 7/27/22- Do I get a bonus?
+  function bonusTime(salary, bonus) {
+    let withBonus = `£${salary * 10}`
+    let withoutBonus = `£${salary}`
+    if(bonus === true){
+      return withBonus;
+    }else{
+      return withoutBonus;
+    }
+  }
