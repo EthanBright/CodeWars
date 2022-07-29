@@ -1125,3 +1125,16 @@ function stringToArray(string){
       return withoutBonus;
     }
   }
+
+  //8 kyu js: 7/28/22- The Feast of Many Beasts
+  function feast(beast, dish) {
+    let firstBeastLetter = beast.toLowerCase().slice(0, 1);
+    let lastBeastLetter = beast.toLowerCase().slice(-1);
+    let firstDishLetter = dish.toLowerCase().slice(0, 1);
+    let lastDishLetter = dish.toLowerCase().slice(-1);
+    if (firstBeastLetter === firstDishLetter && lastBeastLetter === lastDishLetter){
+      return true;
+    }else{
+      return false;
+    }
+  }
