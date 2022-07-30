@@ -1138,3 +1138,8 @@ function stringToArray(string){
       return false;
     }
   }
+
+  //8 kyu js: 7/29/22- Parse nice int from char problem
+  function getAge(inputString){
+    return Number(inputString.slice(0,1))
+  }
