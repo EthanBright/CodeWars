@@ -1143,3 +1143,8 @@ function stringToArray(string){
   function getAge(inputString){
     return Number(inputString.slice(0,1))
   }
+
+  //8 kyu js: 7/30/22- Remove exclamation marks
+  function removeExclamationMarks(s) {
+    return s.replace(/[!]/g, '')
+  }
