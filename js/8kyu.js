@@ -1148,3 +1148,19 @@ function stringToArray(string){
   function removeExclamationMarks(s) {
     return s.replace(/[!]/g, '')
   }
+
+   //8 kyu js: 7/31/22- Stringy Strings
+   function stringy(size) {
+    let string = [];
+    let i = 0;
+    do{
+      i = i + 1;
+      if(i % 2) {
+        string.push('1')
+      }else{
+        string.push('0')
+      }
+    }
+    while (i < size)
+    return string.join('')
+  }
