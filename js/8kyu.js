@@ -1164,3 +1164,9 @@ function stringToArray(string){
     while (i < size)
     return string.join('')
   }
+
+  //8 kyu js: 8/1/22- Sum Mixed Array
+  function sumMix(x){
+    let arr = x.map(Number);
+    return arr.reduce(function(a,b){ return a + b;});
+  }
