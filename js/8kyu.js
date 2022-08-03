@@ -1170,3 +1170,9 @@ function stringToArray(string){
     let arr = x.map(Number);
     return arr.reduce(function(a,b){ return a + b;});
   }
+
+  //8 kyu js: 8/2/22- Is it a palindrome?
+  function isPalindrome(x) {
+    let reverse = x.toLowerCase().split('').reverse().join('');
+    return x.toLowerCase() === reverse;
+  }
