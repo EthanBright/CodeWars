@@ -1176,3 +1176,12 @@ function stringToArray(string){
     let reverse = x.toLowerCase().split('').reverse().join('');
     return x.toLowerCase() === reverse;
   }
+
+  //8 kyu js: 8/3/22- Grasshopper - If/else syntax debug
+  function checkAlive (health) {
+    if (health <= 0) {
+      return false
+    } else{
+      return true
+    }
+  }
