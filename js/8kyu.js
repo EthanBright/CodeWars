@@ -1185,3 +1185,8 @@ function stringToArray(string){
       return true
     }
   }
+
+  //8 kyu js: 8/4/22- Function 3 - multiplying two numbers
+  function multiply(x,y){
+    return x * y;
+  }
