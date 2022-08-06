@@ -1190,3 +1190,17 @@ function stringToArray(string){
   function multiply(x,y){
     return x * y;
   }
+
+  //8 kyu js: 8/5/22- Well of Ideas - Easy Version
+  function well(x){
+    let arr = x.filter(function(value, index, arr){
+      return value === 'good'
+    });
+    if(arr.length === 0){
+      return 'Fail!';
+    }else if(arr.length > 2){
+      return 'I smell a series!';
+    }else{
+      return 'Publish!';
+    }
+  }
