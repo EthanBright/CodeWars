@@ -1204,3 +1204,9 @@ function stringToArray(string){
       return 'Publish!';
     }
   }
+
+  //8 kyu js: 8/6/22- All Star Code Challenge #18
+  function strCount(str, letter){  
+    let string = str.split(letter);
+    return string.length - 1;
+  }
