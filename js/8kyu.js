@@ -1220,4 +1220,7 @@ function stringToArray(string){
     }
   }
 
-  
+  //8 kyu js: 8/9/22- My head is at the wrong end!
+  function fixTheMeerkat(arr) {
+    return arr.reverse();
+   }
