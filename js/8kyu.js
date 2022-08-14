@@ -1230,3 +1230,8 @@ function stringToArray(string){
     let unique = a.filter((v, i, a) => a.indexOf(v) === i);
     return unique;
   }
+
+  //8 kyu js: 8/14/22- Training JS #5: Basic data types--Object
+  function animal(obj){ 
+    return 'This ' + obj.color + ' ' + obj.name + ' has ' + obj.legs + ' legs.'
+  }
