@@ -1224,3 +1224,9 @@ function stringToArray(string){
   function fixTheMeerkat(arr) {
     return arr.reverse();
    }
+
+   //8 kyu js: 8/13/22- Remove duplicates from list
+   function distinct(a) {
+    let unique = a.filter((v, i, a) => a.indexOf(v) === i);
+    return unique;
+  }
