@@ -1235,3 +1235,12 @@ function stringToArray(string){
   function animal(obj){ 
     return 'This ' + obj.color + ' ' + obj.name + ' has ' + obj.legs + ' legs.'
   }
+
+  //8 kyu js: 8/15/22- How many lightsabers do you own?
+  function howManyLightsabersDoYouOwn(name) {
+    if(name === 'Zach'){
+      return 18; 
+    }else{
+      return 0;
+    }
+  }
