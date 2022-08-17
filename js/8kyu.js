@@ -1244,3 +1244,12 @@ function stringToArray(string){
       return 0;
     }
   }
+
+  //8 kyu js: 8/16/22- Grasshopper - Check for factor
+  function checkForFactor (base, factor) {
+    if(base % factor === 0){
+      return true;
+    }else{
+      return false;
+    }
+  }
