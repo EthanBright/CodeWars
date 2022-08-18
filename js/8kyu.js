@@ -1253,3 +1253,15 @@ function stringToArray(string){
       return false;
     }
   }
+
+  //8 kyu js: 8/17/22- Hello, Name or World!
+  function hello(name) {
+    if(name == undefined){
+      return 'Hello, World!';
+    }else if (name.length > 0){
+      let capitalized = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+      return (`Hello, ${capitalized}!`);
+    }else{
+      return 'Hello, World!';
+    }   
+  } 
