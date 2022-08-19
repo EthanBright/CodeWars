@@ -1265,3 +1265,14 @@ function stringToArray(string){
       return 'Hello, World!';
     }   
   } 
+
+  //8 kyu js: 8/18/22- Training JS #7: if..else and ternary operator
+  function saleHotdogs(n){
+    if(n < 5){
+      return n * 100
+    }else if (n >= 10){
+      return n * 90
+    }else{
+      return n * 95
+    }
+  }
