@@ -1276,3 +1276,12 @@ function stringToArray(string){
       return n * 95
     }
   }
+
+  //8 kyu js: 8/20/22- Contamination #1 -String-
+  function contamination(text, char){
+    let answer = []
+    for(let i = 0; i < text.length; i++){
+      answer.push(char);
+    }
+    return answer.join('')
+  }
