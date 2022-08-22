@@ -1285,3 +1285,10 @@ function stringToArray(string){
     }
     return answer.join('')
   }
+
+  //8 kyu js: 8/21/22- Take the Derivative
+  function derive(coefficient,exponent) {
+    let product = coefficient * exponent;
+    let minusOne = exponent - 1;
+    return `${product}x^${minusOne}`
+  }
