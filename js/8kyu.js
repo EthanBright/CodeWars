@@ -1292,3 +1292,10 @@ function stringToArray(string){
     let minusOne = exponent - 1;
     return `${product}x^${minusOne}`
   }
+
+  //8 kyu js: 8/22/22- Thinkful - Number Drills: Blue and red marbles
+  function guessBlue(blueStart, redStart, bluePulled, redPulled) {
+    let total = (blueStart - bluePulled)+(redStart - redPulled);
+    let blueLeft = (blueStart - bluePulled)
+    return   blueLeft / total 
+  }
