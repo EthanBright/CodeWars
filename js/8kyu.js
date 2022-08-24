@@ -1299,3 +1299,14 @@ function stringToArray(string){
     let blueLeft = (blueStart - bluePulled)
     return   blueLeft / total 
   }
+
+  //8 kyu js: 8/23/22- Find numbers which are divisible by given number
+  function divisibleBy(numbers, divisor){
+    let arr = [];
+    numbers.forEach((element)=>{
+      if(element % divisor === 0){
+        arr.push(element);
+      }else{}                 
+    })
+    return arr;
+  }
