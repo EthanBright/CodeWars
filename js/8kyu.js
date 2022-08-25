@@ -1310,3 +1310,12 @@ function stringToArray(string){
     })
     return arr;
   }
+
+  //8 kyu js: 8/24/22- BASIC: Making Six Toast.
+  function sixToast(num) {
+    if(num < 6){
+      return 6 - num;
+    }else{
+      return num  - 6;
+    }
+  }
